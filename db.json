@@ -1,104 +1,88 @@
 {
-  "staff": [
+  "transactions": [
     {
       "id": "1",
-      "name": "Wanjiku Mwangi",
-      "job": "Software Engineer",
-      "role": "Developer",
-      "address": "123 Mombasa Road, Nairobi, Kenya",
-      "contact": "wanjiku.mwangi@example.com",
-      "image": "https://images.unsplash.com/photo-1611432579699-484f7990b127?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Wanjiku is a seasoned software engineer with 5 years of experience in developing scalable web applications."
+      "date": "2019-12-01",
+      "description": "Paycheck from Bob's Burgers",
+      "category": "Income",
+      "amount": 1000
     },
     {
       "id": "2",
-      "name": "Kamau Njoroge",
-      "job": "Data Scientist",
-      "role": "Analyst",
-      "address": "456 Limuru Road, Nairobi, Kenya",
-      "contact": "kamau.njoroge@example.com",
-      "image": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Kamau is an experienced data scientist with a knack for uncovering insights from complex data sets."
+      "date": "2019-12-01",
+      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+      "category": "Food",
+      "amount": -10.55
     },
     {
       "id": "3",
-      "name": "Amina Abdi",
-      "job": "Product Manager",
-      "role": "Manager",
-      "address": "789 Moi Avenue, Mombasa, Kenya",
-      "contact": "amina.abdi@example.com",
-      "image": "https://images.unsplash.com/photo-1530785602389-07594beb8b73?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Amina is a dedicated product manager with a passion for creating user-centric products."
+      "date": "2019-12-02",
+      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+      "category": "Food",
+      "amount": -10.55
     },
     {
       "id": "4",
-      "name": "Otieno Ochieng",
-      "job": "UX Designer",
-      "role": "Designer",
-      "address": "101 Kisumu Road, Kisumu, Kenya",
-      "contact": "otieno.ochieng@example.com",
-      "image": "https://images.unsplash.com/photo-1597346908500-28cda8acfe4e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Otieno is a creative UX designer who excels in creating intuitive and user-friendly interfaces."
+      "date": "2019-12-04",
+      "description": "Sunglasses, Urban Outfitters",
+      "category": "Fashion",
+      "amount": -24.99
     },
     {
       "id": "5",
-      "name": "Njoki Wambui",
-      "job": "Marketing Specialist",
-      "role": "Marketer",
-      "address": "202 Thika Road, Nairobi, Kenya",
-      "contact": "njoki.wambui@example.com",
-      "image": "https://images.unsplash.com/photo-1617037448248-6bd7b4a0d038?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Njoki is a skilled marketing specialist with expertise in digital marketing strategies."
+      "date": "2019-12-06",
+      "description": "Venmo, Alice Pays you for Burrito",
+      "category": "Food",
+      "amount": 8.75
     },
     {
       "id": "6",
-      "name": "Mwende Kilonzo",
-      "job": "Sales Executive",
-      "role": "Sales",
-      "address": "Machakos Road, Machakos, Kenya",
-      "contact": "mwende.kilonzo@example.com",
-      "image": "https://images.unsplash.com/photo-1606415918835-88d0614e75ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Mwende is a results-driven sales executive with a strong track record of exceeding targets."
+      "date": "2019-12-06",
+      "description": "Chipotle",
+      "category": "Food",
+      "amount": -17.59
     },
     {
       "id": "7",
-      "name": "Mutua Muthama",
-      "job": "IT Support Specialist",
-      "role": "Support",
-      "address": "404 Nyeri Road, Nyeri, Kenya",
-      "contact": "mutua.muthama@example.com",
-      "image": "https://images.unsplash.com/photo-1604336732494-d8386c7029e3?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Mutua is an IT support specialist with extensive experience in troubleshooting and system maintenance."
+      "date": "2019-12-07",
+      "description": "Birthday Check from Grandma",
+      "category": "Gift",
+      "amount": 50
     },
     {
       "id": "8",
-      "name": "Nduta Kariuki",
-      "job": "Content Writer",
-      "role": "Writer",
-      "address": "505 Nakuru Road, Nakuru, Kenya",
-      "contact": "nduta.kariuki@example.com",
-      "image": "https://images.unsplash.com/photo-1627393100177-b4297e79a5be?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Nduta is a talented content writer with a flair for crafting compelling and engaging content."
+      "date": "2019-12-09",
+      "description": "Lyft Ride",
+      "category": "Transportation",
+      "amount": -13.25
     },
     {
       "id": "9",
-      "name": "Wekesa Wafula",
-      "job": "Project Manager",
-      "role": "Manager",
-      "address": "606 Eldoret Road, Eldoret, Kenya",
-      "contact": "wekesa.wafula@example.com",
-      "image": "https://images.unsplash.com/photo-1561515075-551b90143acb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Wekesa is a proficient project manager known for his ability to lead teams and deliver projects on time."
+      "date": "2019-12-11",
+      "description": "Paycheck from Bob's Burgers",
+      "category": "Income",
+      "amount": 1000
     },
     {
       "id": "10",
-      "name": "Chebet Kiprono",
-      "job": "HR Specialist",
-      "role": "HR",
-      "address": "707 Kericho Road, Kericho, Kenya",
-      "contact": "chebet.kiprono@example.com",
-      "image": "https://images.unsplash.com/photo-1613730317814-1cede28e0151?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Chebet is an experienced HR specialist dedicated to fostering a positive and productive workplace environment."
+      "date": "2019-12-16",
+      "description": "Tickets, Flatiron Multiplex Cinemas",
+      "category": "Entertainment",
+      "amount": -24
+    },
+    {
+      "id": "11",
+      "date": "2019-12-16",
+      "description": "MTA Vending Machine: MetroCard",
+      "category": "Transportation",
+      "amount": -116.39
+    },
+    {
+      "id": "12",
+      "date": "2019-12-17",
+      "description": "Venmo, Pay Roommate for Rent",
+      "category": "Housing",
+      "amount": -975
     }
   ]
 }
